@@ -1,6 +1,8 @@
 # Nour
 
+This was my spring 2022 Semester Project at Noroff. The goal of the project was to create an e-commerce website that had customer-facing and admin sections. Fetching data from a Strapi API. 
 
+I chose to make the UI for a skincare web shop. Using plain Html, Vanilla Javascript, Bootstrap and Sass. 
 
 ## ⚛️ Technologies used
 
@@ -18,9 +20,11 @@ In VS code you will need to install `Live Server extension` to view it in the br
 
 To open it in the browser with Live Server, right click in any html file and click Open with Live Server.
 
-To test login: 
-username: admin 
-pw: Pass1234
+User credentials to test admin functionality:
+
+email: admin@admin.com
+username: admin
+password: Pass1234
 
 ## 📝 Acknowledgments
 
