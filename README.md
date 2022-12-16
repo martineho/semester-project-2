@@ -18,9 +18,8 @@ In VS code you will need to install `Live Server extension` to view it in the br
 
 To open it in the browser with Live Server, right click in any html file and click Open with Live Server.
 
+User credentials:
 ```
-User credentials to test admin functionality:
-
 email: admin@admin.com
 username: admin
 password: Pass1234
