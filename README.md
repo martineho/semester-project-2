@@ -18,6 +18,10 @@ In VS code you will need to install `Live Server extension` to view it in the br
 
 To open it in the browser with Live Server, right click in any html file and click Open with Live Server.
 
+To test login: 
+username: admin 
+pw: Pass1234
+
 ## 📝 Acknowledgments
 
 - Noroff JS frameworks course material
