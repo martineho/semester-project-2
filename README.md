@@ -8,7 +8,7 @@ This was my spring 2022 Semester Project at Noroff. The goal of was to create an
 - Cart pages
 - Admin pages
 
-The website features a product list, product details and cart pages. It also has an admin section where you can edit, add and delete prodcuts. To access this you would have to login with the admin credentials listed under installation and setup. 
+In the admin section you can edit, add and delete prodcuts. To access this you would have to login with the admin credentials listed under installation and setup. 
 
 ## ⚛️ Technologies used
 
