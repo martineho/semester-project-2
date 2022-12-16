@@ -2,6 +2,12 @@
 
 This was my spring 2022 Semester Project at Noroff. The goal of was to create an e-commerce website that had customer-facing pages and admin sections. Fetching data from a Strapi API. The website is created on plain Html, Vanilla Javascript, Bootstrap and Sass. And the concept is an online store selling korean skincare products. 
 
+### Features
+- Product list
+- Product details page 
+- Cart pages
+- Admin pages
+
 The website features a product list, product details and cart pages. It also has an admin section where you can edit, add and delete prodcuts. To access this you would have to login with the admin credentials listed under installation and setup. 
 
 ## ⚛️ Technologies used
