@@ -38,4 +38,5 @@ password: Pass1234
 
 v 1.0
 
+Currently the functionality and content of the app is minimized to static files only because of issues with the strapi deployement. 
 
