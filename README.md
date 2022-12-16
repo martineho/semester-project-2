@@ -14,7 +14,9 @@
 
 Clone down this repository. 
 
-In VS code you will need to install Live Server extension to view it in the browser and Live Sass Compiler (if not you would have to manually compile sass to css).
+In VS code you will need to install `Live Server extension` to view it in the browser and I recommend installing `Live Sass Compiler` for handling the sass > css conversion. 
+
+To open it in the browser with Live Server, right click in any html file and click Open with Live Server.
 
 ## 📝 Acknowledgments
 
