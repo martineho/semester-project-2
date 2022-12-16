@@ -4,6 +4,8 @@
 
 ## ⚛️ Technologies used
 
+- Html
+- Javascript
 - Bootstrap
 - Sass
 - [Google Fonts](https://fonts.google.com)
