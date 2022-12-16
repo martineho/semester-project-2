@@ -1,0 +1,128 @@
+.admin.herotop.container {
+    padding: 0rem 0rem 1rem 0rem;
+    height: fit-content;
+
+    .breadcrumbs {
+        padding-top: 0rem;
+    }
+    .page-title {
+        margin-top: 1rem;
+        margin-left: 8rem;
+    }
+}
+.admin.container {
+    padding: 2rem 8rem 3rem 8rem;
+
+    .page-navigation {
+        display: flex;
+        justify-content: space-between;
+    }
+    .page-navigation ul {
+        list-style: none;
+        padding: 0;
+        width: fit-content;
+        display: flex;
+        gap: .5rem;
+
+        .nav-link {
+            color: $black;
+            background-color: transparent;
+            font-weight: 400;
+            text-align: left;
+            border-radius: 5rem;
+            font-size: 1rem;
+            padding: .6rem 1.3rem;
+        }
+        .nav-link:hover {
+            background-color: $primary-light;
+            border-color: $primary-light;
+        }
+        .nav-link.active {
+            background-color: $primary;
+            border-color: $primary;
+        }
+    }
+    .back {
+        text-decoration: none;
+        padding: 1.2rem 0rem;
+    }
+
+    .form-container {
+        max-width: 800px;
+        padding: 2rem 1rem;
+
+        label {
+            font-size: .9rem;
+            font-weight: 400;
+        }
+        .form-check {
+            margin: 2rem 1rem;
+        }
+        .submitBtn {
+            float: right;
+        }
+    }
+
+    .admin-products.container {
+
+        .title {
+            padding: 2rem 2rem .5rem .5rem;
+        }
+        .products-all {
+            gap: 1rem;
+            margin: 1rem 0rem;
+        }
+        .product-details {
+            display: flex;
+            justify-content: center;
+            align-items: c;
+            background-color: $white;
+            box-shadow: 0px 2px 20px gainsboro;
+            border-radius: .5rem;
+            padding: .5rem;
+
+            .product-description, .product-price {
+                color: grey;
+                font-size: .9rem;
+                padding-top: 1rem;
+            }
+            .product-title {
+                font-size: .9rem;
+                padding-top: 1rem;
+            }
+            .product-image {
+                width: 50px;
+                height: 60px;
+                border-radius: .2rem;
+                border: solid gainsboro 1px;
+                transition: 0.2s ease;
+            }
+            .product-image:hover {
+                border-color: $primary;
+                opacity: 0.7;
+            }
+            .col-lg-2.links {
+                display: flex;
+                gap: .5rem;
+                justify-content: flex-end;
+                padding: .5rem 1rem;
+
+                a,button {
+                    height: 42px;
+                    background-color: transparent;
+                    color: black;
+                    border: none;
+                }
+                a:hover,button:hover {
+                    background-color: $primary-light;
+                   
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1200px) { 
+    .admin.container {
+        padding: 2rem 1.5rem 3rem 1.5rem;
+    }  
+}

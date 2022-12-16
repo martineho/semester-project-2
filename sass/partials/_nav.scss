@@ -1,0 +1,87 @@
+#logo {
+    scale: 0.4;
+}
+#shopping-bag, #user {
+    scale: 0.35;
+    position: relative;
+}
+.container-fluid {
+    padding: 0;
+}
+.navbar {
+    padding: .0rem 3rem;
+}
+.navbar-nav {
+    gap: 1rem;
+    align-items: center;
+    align-content: center;
+}
+.navbar-brand-centered {
+    position: relative;
+    left: 51%;
+    display: block;
+    width: 100px;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -95px;
+}
+.nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $black;
+}
+.nav-link.active {
+    font-weight: 500;
+}
+.dropdown li:hover {
+    background-color: $primary;
+}
+#adminLink-sm, #login-sm {
+    display: none;
+}
+.count {
+    background-color: black;
+    border-radius: 5rem;
+    font-size: .8rem;
+    text-align: center;
+    margin-top: .6rem;
+    margin-left: -1.5rem;
+    color: $white;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+.sm-list {
+    display: none;
+}
+@media only screen and (max-width: 992px) { 
+    .navbar-collapse {
+        padding: 2rem;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+    }
+    .dropdown {
+       display: none;
+    }
+    .sm-list {
+        display: block;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    .navbar {
+        padding: .0rem 1rem;
+    }
+    .nav-link {
+        text-transform: none;
+        color: $black;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}

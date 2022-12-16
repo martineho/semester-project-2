@@ -1,0 +1,112 @@
+.cart.container {
+    padding: 2rem 8rem 3rem 8rem;
+    margin: 0 auto;
+
+    .cart-products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .product-details {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        border-bottom: solid gainsboro 1px;
+        padding: 1rem 0rem;
+        font-size: .9rem;
+        margin-bottom: 1rem;
+
+        .product-title {
+            font-weight: 400;
+            font-size: .9rem;
+        }
+        .product-image {
+            width: 50px;
+            height: 60px;
+            border-radius: .2rem;
+            border: solid gainsboro 1px;
+            transition: 0.2s ease;
+        }
+        .product-price {
+            color: gray;
+        }
+        .product-total {
+            text-align: right;
+        }
+        .product-quantity {
+            padding: 1rem;
+        }
+
+    }
+    .decrease, .increase {
+        padding: 0;
+        margin-left: .4rem;
+        margin-right: .4rem;
+        margin-bottom: -10px;
+        border: 0;
+        outline: 0;
+        width: 22px;
+        height: 22px;
+        background-color: transparent;
+        transition: .1s ease-in;
+        border-radius: 5rem;
+
+        &:hover {
+            opacity: .7;
+        }
+
+        .icon {
+            scale: .65;
+            margin-top: -5px;
+        }
+    }
+    .cart-total {
+        display: block;
+        justify-content: end;
+        float: right;
+        gap: 5rem;
+        padding: 2rem;
+        max-width: 500px;
+        width: 100%;
+        background-color: $primary-light;
+        border-radius: 1rem;
+
+        .total-price {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        .checkout {
+            width: 100%;
+        }
+    }
+    .message {
+        font-size: 1.5rem;
+        padding: 3rem 0rem 5rem 0rem;
+    }
+    .clear {
+        border-radius: 5rem;
+        width: fit-content;
+        background-color: rgb(240, 240, 240);
+    }
+}
+@media only screen and (max-width: 600px) { 
+    .admin.herotop.container .page-title {
+        margin-left: 2rem;
+    }
+    .product-image {
+        margin-bottom: 1rem;
+    }
+    #decrease {
+        margin-left: -.5rem;
+    }
+    .cart.container {
+        padding: 2rem 1.5rem 3rem 1.5rem;
+    }  
+    
+}

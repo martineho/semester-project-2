@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.top-banner {
+    background-color: #F4F4F4;
+    padding: .5rem;
+    text-align: center;
+    font-size: .8rem;
+} 
+.container {
+    margin: 0;
+    max-width: 1500px;
+}
+a {
+    color: black;
+
+    &:hover {
+        color: rgba(0, 0, 0, 0.75);
+    }
+}
+.btn-lg {
+    border-radius: 5rem;
+    padding: .6rem 1.5rem .7rem 1.5rem;
+}
+.error {
+    padding: .5rem;
+    border-radius: .3rem;
+    font-size: 0.8rem;
+    background-color: rgb(255, 102, 102);
+    border: rgb(255, 82, 82) solid 2px;
+}
+.warning {
+    font-size: 0.8rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: rgb(240, 239, 132);
+    border: rgb(228, 226, 104) solid 2px;
+}
+.success {
+    font-size: 0.8rem;
+    padding: .5rem;
+    border-radius: .3rem;
+    background-color: rgb(150, 255, 136);
+    border: rgb(118, 228, 104) solid 2px;
+}
+.breadcrumbs {
+    padding: 2rem 8rem;
+
+    ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(97, 97, 97);
+    }
+    a::after {
+        padding: .5rem;
+        content: "/";
+        color: rgb(97, 97, 97);
+    }
+    .active {
+        color: black;
+        font-weight: 400;
+    }
+    .active::after {
+        content: "";
+    }
+}
+@media only screen and (max-width: 600px) { 
+    .breadcrumbs {
+        padding: 2rem 2rem;
+    }
+}

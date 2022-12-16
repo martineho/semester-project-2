@@ -1,0 +1,179 @@
+.herotop.container {
+    height: 75vh;
+    min-height: fit-content;
+    padding: 10rem 7rem;
+    background-position: center;
+    background-size: cover;
+
+    .col-6 {
+        padding: 3rem;
+    }
+    .herotop-text {
+        color: $black;
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+        }
+    }
+}
+.introduction.container {
+    background-color: $primary;
+    padding: 5rem 1rem 6rem 1rem;
+    text-align: center;
+
+    p {
+        max-width: 700px;
+        margin: auto auto;
+        font-size: 1.1rem;
+    }
+}
+.products.container {
+    padding: 3rem 8rem 3rem 8rem;
+
+    h3 {
+        text-align: center;
+    }
+    .slider {
+        display: flex;
+        gap: 3rem;
+        overflow-x: hidden;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: .5rem;
+        scroll-behavior: smooth;
+        transition: .2s ease;
+
+    }
+    .slider-arrows {
+        visibility: hidden;
+    }
+    .product {
+        min-width: 300px;
+        max-width: 300px;
+        transition: .3s ease-in;
+
+        .trending-tag {
+            z-index: 1;
+            position: relative;
+            margin-bottom: -2.5rem;
+            padding: .4rem .0rem .6rem .0rem;
+            width: 85px;
+            text-align: center;
+            border-radius: 0rem 0rem 1rem 1rem;
+            margin-left: .5rem;
+            font-weight: 500;
+            font-size: .9rem;
+            color: $black;
+            background-color: $white;
+        }
+        .product-image {
+            background-size: cover;
+            background-position: center;
+            height: 380px;
+            width: 100%;
+            border: none;
+            transition: .1s ease;
+            border-radius: 1rem;
+
+            &:hover {
+                opacity: 0.7;
+                backdrop-filter: blur(2px);
+                scale: .99;
+            }
+        }
+        .product-description {
+            padding: 1rem .3rem;
+        }
+        .product-title {
+            font-size: 1rem;
+            margin-top: .5rem;
+            font-weight: 400;
+            color: rgb(91, 91, 91);
+            line-height: 1.4rem;
+        }
+        .product-price {
+            font-weight: 500;
+            font-size: 1rem;
+        }
+    }
+    .product-btn {
+        position: absolute;
+        margin-top: -12rem;
+        margin-left: 7rem;
+        display: none;
+    }
+    
+}
+.newsletter.container {
+    padding: 1rem 8rem 4rem 8rem;
+    text-align: center;
+
+    .col-12 {
+        background-color: #D7F5FF;
+        display: flex;
+        justify-content: center;
+        border-radius: 2rem;
+    }
+    form {
+        max-width: 500px;
+        padding: 3rem 0rem 1.5rem 0rem;
+
+        label {
+            margin: .5rem 0;
+        }
+
+        input {
+            background-color: transparent;
+        }
+    }
+}
+@media only screen and (max-width: 1200px) { 
+    .herotop.container {
+        padding: 10rem 4rem;
+    }  
+}
+@media only screen and (max-width: 600px) {
+    .herotop.container {
+        padding: 7rem 2rem;
+        height: 80vh;
+    }
+    .products.container {
+        padding: 3rem 1.5rem;
+            
+        .slider {
+        overflow-x: scroll;
+        justify-content: flex-start;
+        gap: 1.5rem;
+        scrollbar-width: none;
+
+        }   
+        .slider-arrows {
+        visibility: visible;
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+
+            #slide-left, #slide-right {
+                background-color: transparent;
+                border: none;
+            }
+            img {
+                width: fit-content;
+                padding: .5rem .7rem;
+                border: solid 1px rgb(220, 220, 220);
+                border-radius: 5rem;
+            }
+        }
+        .product-image:hover~.product-btn {
+            display: none;
+        }
+        .product-btn {
+            display: none;
+        }
+    }
+    .newsletter.container {
+        padding: 2rem;
+        text-align: center;
+}
+}

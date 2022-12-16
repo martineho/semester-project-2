@@ -1,0 +1,55 @@
+.all.herotop.container {
+    padding: 2rem 0rem;
+    height: fit-content;
+    background-image: url(/assets/product-header.jpg);
+
+    .breadcrumbs {
+        padding-top: 0rem;
+    }
+    .page-title {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .all.herotop.container {
+        .page-title {
+            margin-top: 1rem;
+            margin-left: 2rem;
+        }
+    }
+    .all.products.container { 
+        .product {
+            min-width: 150px;
+            max-width: 400px; 
+        }
+        .product-image {
+            height: 170px;
+        }
+        .product-image:hover~.product-btn {
+            display: block;
+        }
+        .product-btn {
+            position: absolute;
+            margin-top: -7.5rem;
+            margin-left: 3.5rem;
+            display: none;
+        }
+        .product-description {
+            padding: .3rem .3rem;
+        }
+        .product-title {
+            font-size: .9rem;
+            margin-top: .5rem;
+            font-weight: 400;
+            color: rgb(137, 137, 137);
+        }
+        .product-price {
+            font-weight: 600;
+            font-size: .9rem;
+        }
+  }
+}

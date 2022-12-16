@@ -1,0 +1,17 @@
+* {
+    font-family: 'Barlow', sans-serif;
+}
+h2 {
+    padding-bottom: 1rem;
+}
+h3 {
+    font-size: 1.2rem;
+}
+p {
+    max-width: 700px;
+}
+a {
+    &:hover {
+        color: rgba(0, 0, 0, 0.75);
+    }
+}

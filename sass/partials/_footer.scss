@@ -1,0 +1,40 @@
+footer {
+    padding: 3rem 7rem;
+    border-top: 1px solid $primary;
+}
+.payment-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: .4rem;
+    
+    img {
+        height: 30px;
+        padding: .5rem;
+        border: solid 1px rgb(218, 218, 218);
+        border-radius: .2rem;
+    }
+}
+.links-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.description {
+    margin-top: 2rem;
+}
+.copyright {
+    span {
+        font-weight: 600;
+    }
+}
+@media only screen and (max-width: 600px) { 
+footer {
+    padding: 3rem 1rem;
+
+    .payment-list {
+        display: flex;
+        justify-content: flex-start;
+        gap: .4rem;
+      }
+}
+}
