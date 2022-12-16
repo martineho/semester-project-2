@@ -1,6 +1,8 @@
 # Nour
 
-This was my spring 2022 Semester Project at Noroff. The goal of the project was to create an e-commerce website that had customer-facing and admin sections. Fetching data from a Strapi API. The website is created on plain Html, Vanilla Javascript, Bootstrap and Sass. And the concept is an online store selling korean skincare products. 
+This was my spring 2022 Semester Project at Noroff. The goal of was to create an e-commerce website that had customer-facing pages and admin sections. Fetching data from a Strapi API. The website is created on plain Html, Vanilla Javascript, Bootstrap and Sass. And the concept is an online store selling korean skincare products. 
+
+The website features an admin section where you can edit, add and delete prodcuts. To access this you would have to login with the admin credentials listed under installation and setup. 
 
 ## ⚛️ Technologies used
 
@@ -18,7 +20,7 @@ In VS code you will need to install `Live Server extension` to view it in the br
 
 To open it in the browser with Live Server, right click in any html file and click Open with Live Server.
 
-User credentials:
+Admin credentials:
 ```
 email: admin@admin.com
 username: admin
