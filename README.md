@@ -12,21 +12,9 @@
 
 ## 👩🏻‍💻 Installation and setup 
 
-Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
+Clone down this repository. 
 
-Installation:
-
-`npm install`  
-
-Run test suite:  
-
-`npm test`  
-
-Start server:
-
-`npm start`  
-
-The app will usually start on port 3000, to view in browser `localhost:3000`.
+In VS code you will need to install Live Server extension to view it in the browser and Live Sass Compiler (if not you would have to manually compile sass to css).
 
 ## 📝 Acknowledgments
 
