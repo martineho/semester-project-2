@@ -30,6 +30,8 @@ password: Pass1234
 
 - Noroff JS frameworks course material
 - Noroff Discord Forum
+- [Javascript shopping cart tutorial](https://www.youtube.com/watch?v=B20Getj_Zk4)
+- Images borrowed from [Laneige](https://www.laneige.com/int/en/index.html) and [Unspalsh](https://unsplash.com/)
 
 ## 📶 Status 
 
