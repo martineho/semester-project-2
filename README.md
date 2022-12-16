@@ -1,6 +1,6 @@
 # Nour
 
-This was my spring 2022 Semester Project at Noroff. The goal of the project was to create an e-commerce website that had customer-facing and admin sections. Fetching data from a Strapi API. The website is created on plain Html, Vanilla Javascript, Bootstrap and Sass. 
+This was my spring 2022 Semester Project at Noroff. The goal of the project was to create an e-commerce website that had customer-facing and admin sections. Fetching data from a Strapi API. The website is created on plain Html, Vanilla Javascript, Bootstrap and Sass. And the concept is an online store selling korean skincare products. 
 
 ## ⚛️ Technologies used
 
